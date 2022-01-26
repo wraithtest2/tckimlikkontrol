@@ -39,7 +39,7 @@ Konsol:
 let number = 956353;
 
 // Sayıyı array olarak parcalalıyoruz.
-number = number.split('')
+number = number.toString().split('')
 
 // Daha sonra bu array icersindeki her sayıyı yani stringi number olan hallerine ceviriyoruz.
 number.map((num,index) => {
